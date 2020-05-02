@@ -1,10 +1,11 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 
-import {auth} from "@/constants/firebase";
-import store from "@/store/index";
+import {auth} from "../constants/firebase";
+import store from "../store/index";
 
-import general from "@/router/modules/general";
+import general from "../router/modules/general";
+import authRoutes from "../router/modules/auth";
 
 Vue.use(VueRouter);
 
@@ -12,6 +13,7 @@ const router = new VueRouter({
     mode: "history",
     routes: [
         ...general,
+        ...authRoutes,
     ]
 });
 

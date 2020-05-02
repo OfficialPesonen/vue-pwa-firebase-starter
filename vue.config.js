@@ -1,6 +1,6 @@
 module.exports = {
     pwa: {
-        name: "App Name",
+        name: "Partyclock",
         themeColor: "#ffffff",
         msTileColor: "#ffffff",
         appleMobileWebAppCapable: "yes",
