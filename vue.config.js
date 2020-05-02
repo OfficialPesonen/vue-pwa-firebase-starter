@@ -2,7 +2,7 @@ module.exports = {
     pwa: {
         name: "App Name",
         themeColor: "#ffffff",
-        msTileColor: "#000000",
+        msTileColor: "#ffffff",
         appleMobileWebAppCapable: "yes",
         appleMobileWebAppStatusBarStyle: "default",
         workboxPluginMode: "GenerateSW"

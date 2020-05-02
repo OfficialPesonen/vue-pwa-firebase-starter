@@ -5,9 +5,8 @@ import {auth} from "./constants/firebase";
 import router from './router/index';
 import store from './store';
 
-import "bootstrap-css-only/css/bootstrap.min.css";
-import "animate.css/animate.min.css";
-import "@/styles/global.css";
+import "./assets/styles/bootstrap.scss";
+import "./assets/styles/global.scss";
 
 Vue.config.productionTip = false;
 
