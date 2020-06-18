@@ -1,6 +1,6 @@
 module.exports = {
     pwa: {
-        name: "Partyclock",
+        name: "vue-pwa-firebase-starter",
         themeColor: "#ffffff",
         msTileColor: "#ffffff",
         appleMobileWebAppCapable: "yes",
