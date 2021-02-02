@@ -1,5 +1,4 @@
 # vuejs-firebase-starter
-Better documentation coming soon.
 
 ## Project setup
 ```
